@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Prince Dubey AI",
+    "slug": "princedubey-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0E1A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.princedubey.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0E1A"
+      },
+      "package": "com.princedubey.ai"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
