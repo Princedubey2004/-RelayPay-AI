@@ -30,19 +30,20 @@ const logger = createLogger({
         })
       ),
     }),
-
-    // File — structured JSON for production log aggregation
-    new transports.File({
-      filename: path.join(__dirname, '../../logs/error.log'),
-      level: 'error',
-      maxsize: 5 * 1024 * 1024, // 5MB
-      maxFiles: 5,
-    }),
-    new transports.File({
-      filename: path.join(__dirname, '../../logs/combined.log'),
-      maxsize: 10 * 1024 * 1024, // 10MB
-      maxFiles: 5,
-    }),
+    ...(process.env.NODE_ENV !== 'production' ? [
+      // File — structured JSON for local log aggregation
+      new transports.File({
+        filename: path.join(__dirname, '../../logs/error.log'),
+        level: 'error',
+        maxsize: 5 * 1024 * 1024, // 5MB
+        maxFiles: 5,
+      }),
+      new transports.File({
+        filename: path.join(__dirname, '../../logs/combined.log'),
+        maxsize: 10 * 1024 * 1024, // 10MB
+        maxFiles: 5,
+      }),
+    ] : [])
   ],
 });
 
