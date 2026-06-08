@@ -1,6 +1,6 @@
 # 🚀 RelayPay AI
 
-**Prince Dubey AI** is a state-of-the-art, **Smart Payment Gateway** built with resilience, intelligence, and modern user experience in mind. It bridges the gap between conventional online transactions and real-world network unreliability by utilizing a sophisticated **Offline-First Processing Strategy** combined with **Payment Intelligence**.
+** RelayPay AI** is a state-of-the-art, **Smart Payment Gateway** built with resilience, intelligence, and modern user experience in mind. It bridges the gap between conventional online transactions and real-world network unreliability by utilizing a sophisticated **Offline-First Processing Strategy** combined with **Payment Intelligence**.
 
 Our application guarantees that you can collect, queue, and process payments without fear of network instability, while leveraging custom-built analytical rules to risk-score and categorize intents dynamically.
 
