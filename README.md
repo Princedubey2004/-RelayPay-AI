@@ -1,4 +1,4 @@
-# 🚀 Prince Dubey AI
+# 🚀 RelayPay AI
 
 **Prince Dubey AI** is a state-of-the-art, **Smart Payment Gateway** built with resilience, intelligence, and modern user experience in mind. It bridges the gap between conventional online transactions and real-world network unreliability by utilizing a sophisticated **Offline-First Processing Strategy** combined with **Payment Intelligence**.
 
@@ -37,7 +37,7 @@ Our application guarantees that you can collect, queue, and process payments wit
 
 ## 🏗 Project Architecture
 
-Prince Dubey AI adopts a Client-Server decoupled architecture:
+ RelayPay AI adopts a Client-Server decoupled architecture:
 
 * **Presentation Layer (Mobile):** Built with React Native & Expo. Utilizing Context Providers (`PaymentContext`, `QueueContext`, `AuthContext`) for centralized state management. Native navigation via `@react-navigation`.
 * **Business Logic Layer (Backend):** Built using Node.js & Express. Contains modular, separation-of-concerns logic utilizing Controllers, Services, and custom Middlewares (Authentication, Error Mapping, Validate).
